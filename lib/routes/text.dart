@@ -24,6 +24,7 @@ class _TextRouteState extends State<TextRoute> {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
+//    sca: 以列的形式 展示
       child: Column(
         children: <Widget>[
           Text(

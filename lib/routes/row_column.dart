@@ -6,6 +6,7 @@ class CenterColumnRoute extends StatelessWidget {
     return ConstrainedBox(
       constraints: BoxConstraints(minWidth: double.infinity),
       child: Column(
+//        纵轴对齐
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           Text("hi"),

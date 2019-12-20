@@ -11,6 +11,7 @@ class ImageAndIconRoute extends StatelessWidget {
             image: img,
             height: 50.0,
             width: 100.0,
+//            类似于 scaleType
             fit: BoxFit.fill,
           ),
           Image(
@@ -72,6 +73,7 @@ class ImageAndIconRoute extends StatelessWidget {
                   child: e,
                 ),
               ),
+//              sca: 这里是它右边要显示的文字。
               Text(e.fit.toString())
             ],
           );

@@ -32,6 +32,9 @@ dependencies:
   webview_flutter: ^0.3.10+4
   english_words: ^3.1.0
 
+#需要注意dependencies和dev_dependencies的区别，
+#  前者的依赖包将作为APP的源码的一部分参与编译，生成最终的安装包。
+#  而后者的依赖包只是作为开发阶段的一些工具包，主要是用于帮助我们提高开发、测试效率，比如flutter的自动化测试包等。
 dev_dependencies:
   flutter_test:
     sdk: flutter
