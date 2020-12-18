@@ -53,6 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 //  2. 设置状态的自增函数。
   void _incrementCounter() {
+    //setState 的参数是一个匿名函数
     setState(() {
       _counter++;
     });
